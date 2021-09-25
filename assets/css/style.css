@@ -1,0 +1,78 @@
+#space {
+  display: flex;
+  flex-wrap: flex;
+}
+
+.weather {
+  border: 1px solid black;
+  height: auto;
+  width: 100%;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day {
+  background-color: darkblue;
+  width: 30.321%;
+  margin-right: 3%;
+  color: white;
+}
+
+.day-bottom {
+  background-color: darkblue;
+  width: 47%;
+  margin-right: 3%;
+  margin-top: 3%;
+  color: white;
+}
+
+#border-bottom {
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+#delete-button {
+  margin-top: 10px;
+}
+
+#search-button {
+  margin-top: 10px;
+}
+
+.history {
+  text-align: center;
+  margin-top: 15px;
+  background-color: gray;
+  border-radius: 3px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
+  width: 100%;
+}
+
+ul {
+  width: 100%;
+}
+
+.line-break {
+  width: 100%;
+}
+
+#five-day {
+  margin-left: 15px;
+}
+
+
