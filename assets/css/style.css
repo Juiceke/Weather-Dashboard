@@ -5,7 +5,7 @@
 
 .weather {
   border: 1px solid black;
-  height: 200px;
+  height: auto;
   width: 100%;
   margin-left: 15px;
   margin-top: 15px;
@@ -26,8 +26,17 @@
 
 .day {
   background-color: darkblue;
-  width: 20%;
-  border: 1px solid black;
+  width: 30.321%;
+  margin-right: 3%;
+  color: white;
+}
+
+.day-bottom {
+  background-color: darkblue;
+  width: 47%;
+  margin-right: 3%;
+  margin-top: 3%;
+  color: white;
 }
 
 #border-bottom {
@@ -51,8 +60,19 @@
   padding-top: 2px;
   padding-bottom: 2px;
   cursor: pointer;
+  width: 100%;
 }
 
 ul {
   width: 100%;
 }
+
+.line-break {
+  width: 100%;
+}
+
+#five-day {
+  margin-left: 15px;
+}
+
+
