@@ -12,7 +12,7 @@ var inputs = JSON.parse(localStorage.getItem('input')) || []
 
 
 var theWeather = function (city) {
-  var apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + city + "&id=524901&units=imperial&appid=9114ee0cf1e613881e91ee401ef02c78"
+  var apiUrl = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&id=524901&units=imperial&appid=9114ee0cf1e613881e91ee401ef02c78"
   fetch(apiUrl)
     .then(function (response) {
       return response.json();
